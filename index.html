@@ -2,22 +2,26 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <form action=""> 
             <!--// give information to webserver -->
 
-            <input type="text" value="Enter Your Username">
+            <label for="username">Username: </label>
+            <input type="text" id="username" value="Enter Your Username">
             <!-- 'value' labels box -->
 
             <input type="date">
             <!--  -->
 
-            <input type="email">
+            <label for="email">Email: </label>
+            <input type="email" id="email" value="Enter Your Email">
             <!--  -->
 
-            <input type="range">
-            <!--  -->
+            <label for="hotness">Hotness Scale</label>
+            <input type="range" name="hotness scale" min="0" max="10" id="hotness">
+            <!-- enter a min and max for range -->
 
             <input type="password">
             <!--  -->
